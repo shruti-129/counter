@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CountDown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="CountDown">
+    <div class="container">
+        <div class="mainsection">
+            <h1>COUNTDOWN</h1>
+            <div class="display">
+                <div class="hour">
+                    <div class="number1"><h2 id="hr">00</h2></div>
+                    <div class="hours"><h2>Hours</h2></div>
+                </div>
+                <div class="minute">
+                    <div class="number2"><h2 id="min">00</h2></div>
+                    <div class="minutes"><h2>Minutes</h2></div>
+                </div>
+                <div class="second">
+                    <div class="number3"><h2 id="sec">00</h2></div>
+                    <div class="seconds"><h2>Second</h2></div>
+                </div>
+                <div class="c_second">
+                    <div class="number4"><h2 id="c_sec">00</h2></div>
+                    <div class="c_seconds"><h2>C-Second</h2></div>
+                </div>
+            </div>
+            <div class="inputdata">
+                <input type="number" name="number" id="inputsecond" placeholder="Enter Time In Second">
+            </div>
+            <div class="allbutton">
+                <input type="button" id="startbtn" value="Start" style="border: 1px solid green;background-color:white;width: 100px;height: 30px;">
+                <input type="button" class="dn" id="resumebtn" value="Resume" style="border: 1px solid green;background-color:white;width: 100px;height: 30px;">
+                <input type="button" class="dn" id="restartbtn" value="Restart" style="border: 1px solid green;background-color:white;width: 100px;height: 30px;">
+                <input type="button" id="pausebtn" value="Pause"
+                       style="border: 1px solid blue;background-color:white;width: 100px;height: 30px;">
+                <input type="button" id="stopbtn" value="Stop" style="border: 1px solid red;background-color:white;width: 100px;height: 30px;">
+                <input type="button" id="resetbtn"value="Reset"
+                       style="border: 1px solid black;background-color:white;width: 100px;height: 30px;">
+            </div>
+            <div class="status">
+                <p id="status" style="width: 40%;margin: 0 auto;padding: 5px 0;border: 1px solid black;">Enter Time & Hit
+                    Start!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="datafile.js"></script>
+<script src="myjsfile.js"></script>
+</body>
+</html>
